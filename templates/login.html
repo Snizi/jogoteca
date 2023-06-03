@@ -1,0 +1,20 @@
+{% extends "template.html" %}
+{%block conteudo%}
+    <form action="/autenticar" method="post">
+        <fieldset>
+        <div class="form-group">
+            <label for="usario">Usuario</label>
+            <input type="text" id="usuario" name="usuario" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="senha">Senha</label>
+            <input type="text" id="senha" name="senha" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary btn-salvar">Salvar</button>
+        </fieldset>
+    </form>
+
+
+
+
+{%endblock%}
